@@ -16,54 +16,56 @@
         // Sample project data
         const projects = [
             {
-                title: "E-commerce Platform",
+                title: "ADVANCE QUIZE APPLICATION",
                 description: "A full-featured e-commerce platform with shopping cart, payment processing, and admin dashboard.",
-                tags: ["react", "node.js", "mongodb"],
+                tags: ["Html", "Css", "Javascript" ,"Tailwaind", "Css"],
                 category: "web",
-                image: "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/596d9597-59cc-4788-88dd-6f772cc9b605.png",
+                image: "quiz.png",
                 alt: "Modern e-commerce website with product listings and shopping cart functionality"
             },
             {
-                title: "Health Tracking App",
+                title: "TIC TAC TOY GAME",
                 description: "A mobile application for tracking fitness goals, nutrition, and health metrics.",
-                tags: ["react native", "firebase", "redux"],
+                tags: ["HTML","CSS","JAVASCRIPT"],
                 category: "mobile",
-                image: "https://placehold.co/600x400",
+                image: "TIC-TAC.jpg",
                 alt: "Health tracker mobile app showing fitness statistics and progress charts"
             },
             {
-                title: "Portfolio Website",
-                description: "A responsive portfolio website designed with accessibility and performance in mind.",
-                tags: ["html", "css", "javascript"],
+                title: "AMAZON CLONE",
+                description: "Amazon Clone Not Responsive. This Actual Amazon Website Clone.",
+                tags: ["HTML", "CSS", "JAVASCRIPT"],
                 category: "design",
-                image: "https://placehold.co/600x400",
+                image: "AZ.png",
                 alt: "Clean portfolio website layout with project showcase and contact form"
             },
+            
             {
                 title: "Task Management System",
                 description: "A collaborative task management tool with real-time updates and team features.",
-                tags: ["vue.js", "express", "postgresql"],
+                tags: ["HTML", "CSS", "JAVASCRIPT"],
                 category: "web",
-                image: "https://placehold.co/600x400",
+                image: "",
                 alt: "Task management interface with kanban board and team collaboration features"
             },
             {
-                title: "Restaurant Finder",
-                description: "An iOS and Android app for discovering local restaurants with reviews and menus.",
-                tags: ["flutter", "django", "sqlite"],
+                title: "Advance Age Calculator",
+                description: "This Advance Age Calculator App Exact Give Your Birth Date Month ,Year,Day And Hours .",
+                tags: ["HTML","CSS","JAVASCRIPT"],
                 category: "mobile",
-                image: "https://placehold.co/600x400",
+                image: "Age.png",
                 alt: "Mobile app displaying restaurant listings with ratings and photos"
             },
             {
-                title: "Design System",
-                description: "Comprehensive design system with reusable UI components and documentation.",
-                tags: ["figma", "storybook", "styled-components"],
+                title: "HOSPITAL MANAGEMENT SYSTEM",
+                description: "Manage Hospital,Patients,Appoitment And All That Manage This System.",
+                tags: ["HTML","CSS", "JAVASCRIPT"],
                 category: "design",
-                image: "https://placehold.co/600x400",
+                image: "Hospital.png",
                 alt: "Design system showcase with component library and usage guidelines"
             }
         ];
+
         
         // Sample skills data
         const skills = [
@@ -72,28 +74,26 @@
             { name: "JavaScript", category: "frontend" },
             { name: "TypeScript", category: "frontend" },
             { name: "React", category: "frontend" },
-            { name: "Vue.js", category: "frontend" },
+            { name: "Bootstrap", category: "frontend" },
+        
             { name: "Next.js", category: "frontend" },
             { name: "Tailwind CSS", category: "frontend" },
-            { name: "SASS", category: "frontend" },
+      
             { name: "Node.js", category: "backend" },
+            { name: "Php", category: "backend" },
             { name: "Express", category: "backend" },
             { name: "Python", category: "backend" },
-            { name: "Django", category: "backend" },
-            { name: "Flask", category: "backend" },
+       
             { name: "MongoDB", category: "database" },
             { name: "PostgreSQL", category: "database" },
             { name: "MySQL", category: "database" },
-            { name: "Firebase", category: "database" },
+          
             { name: "Git", category: "devops" },
-            { name: "Docker", category: "devops" },
-            { name: "AWS", category: "devops" },
-            { name: "Heroku", category: "devops" },
-            { name: "Jenkins", category: "devops" },
+      
             { name: "Figma", category: "design" },
             { name: "Adobe XD", category: "design" },
             { name: "Photoshop", category: "design" },
-            { name: "Illustrator", category: "design" }
+           
         ];
         
         // Mobile menu toggle
@@ -254,4 +254,5 @@
                 observer.observe(element);
                 element.style.animationPlayState = 'paused';
             });
+
         });
